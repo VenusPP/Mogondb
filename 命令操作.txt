@@ -16,3 +16,5 @@ db.表的名称.insert({"title","db"})
 5 删除 db.数据库名.remove({"title":"name"})
 
 6 分页 db.数据库名.find().skip(pageIndex*pageSize).limit(pageSize)
+
+7 这是在测试git时新增加的内容
