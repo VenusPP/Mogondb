@@ -1,5 +1,5 @@
 # Mongodb
-Some code about Mongodb
+Some codes about Mongodb
 The bat feil tell us how to use Mongodb to manage the data base
 The "db.DatabaseName.insert({"title","db"})" means we add a data in the Database
 The "db.DataName.find()" means we can find all the datas in the Database
