@@ -1,0 +1,149 @@
+2017-06-24T00:07:27.378+0800 I CONTROL  [initandlisten] MongoDB starting : pid=9124 port=27017 dbpath=D:\MongdbProducts\data 64-bit host=ZGC-20160224OAG
+2017-06-24T00:07:27.378+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-24T00:07:27.378+0800 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-24T00:07:27.379+0800 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-24T00:07:27.379+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-24T00:07:27.379+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-24T00:07:27.380+0800 I CONTROL  [initandlisten] modules: none
+2017-06-24T00:07:27.380+0800 I CONTROL  [initandlisten] build environment:
+2017-06-24T00:07:27.380+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-24T00:07:27.380+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-24T00:07:27.380+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-24T00:07:27.380+0800 I CONTROL  [initandlisten] options: { storage: { dbPath: "D:\MongdbProducts\data" }, systemLog: { destination: "file", path: "D:\MongdbProducts\logs\log.txt" } }
+2017-06-24T00:07:27.382+0800 I -        [initandlisten] Detected data files in D:\MongdbProducts\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-24T00:07:27.382+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1478M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-24T00:07:27.716+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:07:27.716+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-24T00:07:27.717+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-24T00:07:27.717+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:07:27.717+0800 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-06-24T00:07:27.717+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:07:29.061+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongdbProducts/data/diagnostic.data'
+2017-06-24T00:07:29.066+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-24T00:08:02.623+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51913 #1 (1 connection now open)
+2017-06-24T00:08:02.625+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51914 #2 (2 connections now open)
+2017-06-24T00:08:02.626+0800 I -        [conn1] end connection 127.0.0.1:51913 (2 connections now open)
+2017-06-24T00:08:02.759+0800 I -        [conn2] end connection 127.0.0.1:51914 (1 connection now open)
+2017-06-24T00:08:02.875+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51915 #3 (1 connection now open)
+2017-06-24T00:08:02.876+0800 I -        [conn3] end connection 127.0.0.1:51915 (1 connection now open)
+2017-06-24T00:08:08.184+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51920 #4 (1 connection now open)
+2017-06-24T00:08:08.185+0800 I -        [conn4] end connection 127.0.0.1:51920 (1 connection now open)
+2017-06-24T00:08:08.435+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51921 #5 (1 connection now open)
+2017-06-24T00:08:15.862+0800 I -        [conn5] end connection 127.0.0.1:51921 (1 connection now open)
+2017-06-24T00:08:38.492+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51959 #6 (1 connection now open)
+2017-06-24T00:08:38.493+0800 I -        [conn6] end connection 127.0.0.1:51959 (1 connection now open)
+2017-06-24T00:08:38.742+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51960 #7 (1 connection now open)
+2017-06-24T00:19:04.365+0800 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-06-24T00:19:04.366+0800 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-06-24T00:19:04.366+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-06-24T00:19:04.366+0800 I NETWORK  [consoleTerminate] closing listening socket: 472
+2017-06-24T00:19:04.367+0800 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-06-24T00:19:04.367+0800 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-06-24T00:19:04.372+0800 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-06-24T00:19:04.461+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-06-24T00:19:04.462+0800 I CONTROL  [consoleTerminate] now exiting
+2017-06-24T00:19:04.462+0800 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-06-24T00:23:31.096+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-24T00:23:31.609+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-06-24T00:23:31.624+0800 I CONTROL  [main] Service 'MongoDB' (MongoDB) installed with command line 'D:\mgondb\MongoDB\Server\3.4\bin\mongod.exe --logappend --logpath=D:\MongdbProducts\logs\log.txt --dbpath=D:\MongdbProducts\data --service'
+2017-06-24T00:23:31.625+0800 I CONTROL  [main] Service can be started from the command line with 'net start MongoDB'
+2017-06-24T00:23:57.612+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-24T00:23:58.104+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-06-24T00:23:58.104+0800 I CONTROL  [initandlisten] MongoDB starting : pid=9208 port=27017 dbpath=D:\MongdbProducts\data 64-bit host=ZGC-20160224OAG
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] modules: none
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten] build environment:
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-24T00:23:58.105+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-24T00:23:58.106+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-24T00:23:58.106+0800 I CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "D:\MongdbProducts\data" }, systemLog: { destination: "file", logAppend: true, path: "D:\MongdbProducts\logs\log.txt" } }
+2017-06-24T00:23:58.107+0800 I -        [initandlisten] Detected data files in D:\MongdbProducts\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-24T00:23:58.108+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1478M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-24T00:23:58.404+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:23:58.404+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-24T00:23:58.405+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-24T00:23:58.405+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:23:58.405+0800 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-06-24T00:23:58.405+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:23:59.745+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongdbProducts/data/diagnostic.data'
+2017-06-24T00:23:59.748+0800 I STORAGE  [initandlisten] Service running
+2017-06-24T00:23:59.750+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-24T00:28:41.242+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-06-24T00:28:41.243+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2017-06-24T00:28:41.243+0800 I NETWORK  [serviceShutdown] closing listening socket: 448
+2017-06-24T00:28:41.243+0800 I NETWORK  [serviceShutdown] shutdown: going to flush diaglog...
+2017-06-24T00:28:41.243+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2017-06-24T00:28:41.249+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2017-06-24T00:28:41.354+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2017-06-24T00:28:41.355+0800 I CONTROL  [serviceShutdown] now exiting
+2017-06-24T00:29:08.412+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-24T00:29:08.931+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2017-06-24T00:29:08.931+0800 I CONTROL  [main] There is already a service named 'MongoDB', sleeping and retrying
+2017-06-24T00:29:24.090+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-24T00:29:24.624+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-06-24T00:29:24.625+0800 I CONTROL  [initandlisten] MongoDB starting : pid=8604 port=27017 dbpath=D:\MongdbProducts\data 64-bit host=ZGC-20160224OAG
+2017-06-24T00:29:24.625+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-24T00:29:24.625+0800 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-24T00:29:24.625+0800 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten] modules: none
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten] build environment:
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-24T00:29:24.626+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-24T00:29:24.627+0800 I CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "D:\MongdbProducts\data" }, systemLog: { destination: "file", logAppend: true, path: "D:\MongdbProducts\logs\log.txt" } }
+2017-06-24T00:29:24.628+0800 I -        [initandlisten] Detected data files in D:\MongdbProducts\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-24T00:29:24.628+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1478M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-24T00:29:24.979+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:29:24.979+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-24T00:29:24.979+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-24T00:29:24.979+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:29:24.979+0800 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-06-24T00:29:24.979+0800 I CONTROL  [initandlisten] 
+2017-06-24T00:29:25.352+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongdbProducts/data/diagnostic.data'
+2017-06-24T00:29:25.353+0800 I STORAGE  [initandlisten] Service running
+2017-06-24T00:29:25.355+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-24T00:34:14.063+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:52351 #1 (1 connection now open)
+2017-06-24T00:34:14.065+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:52351 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.4" }, os: { type: "Windows", name: "Microsoft Windows 7", architecture: "x86_64", version: "6.1 SP1 (build 7601)" } }
+2017-06-24T00:43:05.717+0800 I -        [conn1] end connection 127.0.0.1:52351 (1 connection now open)
+2017-06-24T00:45:50.552+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2017-06-24T00:45:50.552+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2017-06-24T00:45:50.552+0800 I NETWORK  [serviceShutdown] closing listening socket: 448
+2017-06-24T00:45:50.553+0800 I NETWORK  [serviceShutdown] shutdown: going to flush diaglog...
+2017-06-24T00:45:50.553+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2017-06-24T00:45:50.555+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2017-06-24T00:45:50.638+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2017-06-24T00:45:50.638+0800 I CONTROL  [serviceShutdown] now exiting
+2017-06-24T13:30:50.828+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-24T13:30:51.756+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-06-24T13:30:51.760+0800 I CONTROL  [initandlisten] MongoDB starting : pid=1268 port=27017 dbpath=D:\MongdbProducts\data 64-bit host=ZGC-20160224OAG
+2017-06-24T13:30:51.760+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-24T13:30:51.760+0800 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-24T13:30:51.760+0800 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-24T13:30:51.760+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-24T13:30:51.760+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-24T13:30:51.761+0800 I CONTROL  [initandlisten] modules: none
+2017-06-24T13:30:51.761+0800 I CONTROL  [initandlisten] build environment:
+2017-06-24T13:30:51.761+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-24T13:30:51.761+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-24T13:30:51.761+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-24T13:30:51.761+0800 I CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "D:\MongdbProducts\data" }, systemLog: { destination: "file", logAppend: true, path: "D:\MongdbProducts\logs\log.txt" } }
+2017-06-24T13:30:51.770+0800 I -        [initandlisten] Detected data files in D:\MongdbProducts\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-24T13:30:51.771+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1478M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-24T13:30:52.462+0800 I CONTROL  [initandlisten] 
+2017-06-24T13:30:52.462+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-24T13:30:52.463+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-24T13:30:52.463+0800 I CONTROL  [initandlisten] 
+2017-06-24T13:30:52.463+0800 I CONTROL  [initandlisten] Hotfix KB2731284 or later update is not installed, will zero-out data files.
+2017-06-24T13:30:52.463+0800 I CONTROL  [initandlisten] 
+2017-06-24T13:30:53.004+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/MongdbProducts/data/diagnostic.data'
+2017-06-24T13:30:53.008+0800 I STORAGE  [initandlisten] Service running
+2017-06-24T13:30:53.012+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-24T13:53:09.249+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:50282 #1 (1 connection now open)
+2017-06-24T13:53:09.250+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:50282 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.4" }, os: { type: "Windows", name: "Microsoft Windows 7", architecture: "x86_64", version: "6.1 SP1 (build 7601)" } }
+2017-06-24T15:41:12.997+0800 I -        [conn1] end connection 127.0.0.1:50282 (1 connection now open)

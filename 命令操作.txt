@@ -1,0 +1,18 @@
+1 show dbs 用来查询所有的的数据库
+2 db 用来查询当前的数据库名称
+3 use  数据库名称 ：用来切换数据库 没有数据库时就执行新建数据库命令
+4 db.dropDatabase() 删除当前的数据库
+
+表的操作
+1表的创建 （collection）
+db.表的名称.insert({"title","db"})
+
+2 表中的字段是不固定的 (document,field)
+
+3 查看数据库，db.数据库name.find()
+
+4 更新数据库信息 db.数据库名.update({"title":"原名称"},{$set:{"title":"更改后的名字"}})
+
+5 删除 db.数据库名.remove({"title":"name"})
+
+6 分页 db.数据库名.find().skip(pageIndex*pageSize).limit(pageSize)
